@@ -1,0 +1,40 @@
+body{
+    background-color: #c5e1ec /*#bdebfd*/;
+}
+
+.overlay-text{
+    font-family: "Great Vibes", cursive;
+    /*font-weight: 1000pt;*/
+    font-style: normal;
+    font-size: 80pt;
+    text-align: center;
+    margin-top: 100px;
+  }
+
+.img-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    height: 300px;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.view-image {
+    display: block;
+    text-align: center;
+}
+/*.row.g-2{
+    width: 100%;
+}*/
+.col-auto{
+    width: 100%;
+    text-align: center;
+    margin-top: 25px;
+
+}
+#inputEdad{
+    text-align: center;
+}
