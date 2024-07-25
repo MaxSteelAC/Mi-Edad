@@ -17,19 +17,19 @@
         </div>
     </div>
     <div id="container-text">
-      <form class="row g-2">
+     <div class="row g-2">
           <div class="col-auto">
-            <label for="birthdate" class="visually-hidden">¿Cuándo naciste?</label>
-            <input type="date"id="birthdate" name="birthdate" required class="form-control" id="Birthday" placeholder="DD-MM-AA">
+            <label for="birthday" class="visually-hidden">¿Cuándo naciste?</label>
+            <input type="date"id="birthday" name="birthday" value="0000-00-00" class="form-control" placeholder="DD-MM-AA"/>
           </div>
           <div class="col-auto">
-            <button type="submit" class="btn btn-primary mb-2">Calcular</button>
+            <button onclick="calculateAge()" class="btn btn-primary mb-2">Calcular</button>
           </div>
           <div class="col-auto">
-              <label for="inputPassword2" class="visually-hidden">¿Cuántos años tienes?</label>
-              <input type="Edad" class="form-control" placeholder="DD-MM-AA">
+              <label for="age" class="visually-hidden">¿Cuántos años tienes?</label>
+              <input readonly type="text" id="age" class="form-control" />
             </div>
-        </form>
+          </div>
       </div>
 </body>
 <script src="index.js"></script>
