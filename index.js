@@ -1,8 +1,14 @@
 function calculateAge(){/*1*/
     const fechaNacimiento = document.getElementById("birthday").value;/*2*/
-    calculateAgeByBirthday(fechaNacimiento)
-}
+    console.log(fechaNacimiento)
 
+    if(fechaNacimiento == ""){
+        alert("Fecha Invalida")
+    } else {
+        calculateAgeByBirthday(fechaNacimiento)
+    }
+
+}
 function calculateAgeByBirthday(birthday){/*3*/
     // calcular
     const fechaActual= new Date() // 2024-07-22 02:52
@@ -45,5 +51,5 @@ function calculateAgeByBirthday(birthday){/*3*/
 
     // Imprimir
     document.getElementById("age").value =age;
-}
+    }
 
